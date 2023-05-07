@@ -1,0 +1,103 @@
+.header-2{
+    position: fixed;
+    top: 50px;
+    flex: 80px;
+    display: grid;
+    grid-template-columns: 5fr 6fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    z-index: 200px;
+}
+
+.left-section{
+    margin-left: 20px;
+}
+.airbnb-logo{
+    height: 30px;
+}
+
+.hamburger-icon{
+    height: 40px;
+}
+.profile-icon{
+    height: 40px;
+
+}
+.middle-section{
+    padding-left: 15px;
+}
+.searchbar{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border-width: 0px;
+    box-shadow: 0px 0px 1px;
+    font-size: 14;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;;
+}
+
+.profile-button,
+.world-icon-button,
+.airbnb-yourHome-button{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.airbnb-yourHome-button{
+    height: 30px;
+    width: 125px;
+    border-radius: 30px;
+    border-width: 0;
+    background-color: white;
+}
+
+.world-icon-button{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 100px;
+    border-width: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.world-icon-button:hover,
+.airbnb-yourHome-button:hover{
+    background-color: rgb(241, 241, 241);
+}
+.world-icon{
+    height: 20px;
+}
+.profile-button{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 0px;
+    box-shadow: 0px 0px 1px;
+
+}
+.profile-button:hover,
+.searchbar:hover{
+    box-shadow: 0px 2px 5px;
+}
+.hamburger-icon{
+    height: 25px;
+}
+.profile-icon{
+    height: 30px;
+    border-radius: 50px;
+}

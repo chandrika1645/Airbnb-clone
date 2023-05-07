@@ -1,0 +1,8 @@
+body{
+    position: relative;
+    display: flex;
+    left: 55px;
+    right: 55px;
+    width: 1390px;
+    flex-direction: column;
+}

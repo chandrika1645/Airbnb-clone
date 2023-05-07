@@ -1,0 +1,107 @@
+.header-3 {
+    position: fixed;
+    top: 135px;
+    flex: 100px; 
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 200;
+    background-color: whitesmoke;
+}
+
+.header-3-section-1 {
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+
+}
+
+.header-3-left-section {
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.left-nav-button {
+    padding: 5px 15px 5px 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: white;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    transition: box-shadow 0.15s;
+}
+
+.left-nav-button:hover,
+.homes-type:hover {
+    box-shadow: 0px 0px 2px;
+}
+
+.header-3-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.right-nav-button {
+    padding: 5px 15px 5px 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: white;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    transition: box-shadow 0.15s;
+
+}
+
+.right-nav-button:hover {
+    box-shadow: 0px 0px 2px;
+}
+
+.homes-class {
+    display: grid;
+    grid-template-columns: 96px 96px 96px 96px 96px 96px 96px 96px 96px 96px 96px 96px;
+    column-gap: 1px;
+    margin-left: 5px;
+}
+
+.homes-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.historical-home-icon {
+    height: 35px;
+    width: 35px;
+}
+
+.Home-name {
+    font-size: 11px;
+}
+
+.filter-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 16px 15px 16px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: transparent;
+}
+
+.filter-icon {
+    height: 15px;
+}
+.filter-text{
+    margin-left: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.header-1{
+    flex: 55px;
+    height: 55px;
+    
+    position: fixed;
+    /* top: 55px; */
+    left: 50px;
+    right: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.header-1-text{
+    display: flex;
+}
+.Learn-more-text{
+    margin-left: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
