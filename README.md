@@ -12,7 +12,7 @@ An **Airbnb Clone** built with **HTML & CSS**, replicating Airbnb’s homepage d
 
 ## 📸 Screenshots  
 
-Here are some screenshots showcasing the design:  
+Here is a screenshot showcasing the design:  
 
 <img src="https://raw.githubusercontent.com/chandrika1645/Airbnb-clone/main/Airbnb%20clone/screenshots/Screenshot%202025-03-23%20at%208.43.21%E2%80%AFAM.png" width="900">  
 
